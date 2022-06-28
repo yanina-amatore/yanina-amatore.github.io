@@ -4,18 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">">
     <title>my devacademy blog</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li>about</li>
-          <li>blog posts</li>
+    <header></header>
+    <main>
+
+      <nav id="main-menu">
+        <ul class="nav-bar">
+          <li class="nav-home"><a href="#">home</a></li>
+          <li class="nav-blog-post"><a href="#">blogs</a></li>
         </ul>
       </nav>
-    </header>
-    <main>
+
       <!-- introducing the blog, I want a bg image in this section -->
       <section class="section-intro">
         <div>
@@ -27,17 +30,19 @@
       <!-- I want my blog post to look be thumbnails links with image and text  -->
       <section class="section-blog-post">
         <div>
-          <article class="blog-post-box">            
-              <!-- add alt text -->
-              <img src="https://picsum.photos/200" alt="">            
-            <h2> post title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, architecto.</p>
+          <article class="blog-post-box">
+            <!-- add alt text -->
+            <img src="https://picsum.photos/200" alt="" />
+            <h2>post title</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+              architecto.
+            </p>
           </article>
-        </div>
-         
-      
+        </div> 
+
       </section>
     </main>
-    
+
   </body>
 </html>
