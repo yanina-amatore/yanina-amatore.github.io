@@ -33,8 +33,8 @@ body {
 }
 
 .section{
-  height: 60vh;
-  width: auto;
+  height: 70vh;
+  
   
 }
 .container-intro{
@@ -42,12 +42,12 @@ body {
   background-color: rgb(235, 196, 196);
   display: grid;
   justify-content:center;
-  /* fix bg-image to fit container */
+  /* fix bg-image to fit container
   background-image: url(https://picsum.photos/id/131/1700/700);
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-position: center;
-  /* background-size: auto;
+  background-size: auto;
   object-fit: cover; */
 }
 
@@ -97,6 +97,7 @@ body {
 #row {
 border: 1px solid red;
 display: flex;
+flex-wrap: wrap;
 align-items: center;
 justify-content:space-around;
 /* gap:10%; */
