@@ -15,7 +15,6 @@ body {
 .nav-bar{
 
   /* margin: 20px; */
-  border: 1px solid red;
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -29,6 +28,74 @@ body {
   color: #000;
   padding: 0px 15px;  
   text-transform: capitalize;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1.1rem;
+}
+
+.section{
+  height: 60vh;
+  width: auto;
+  
+}
+.container-intro{
+  height: 100%;
+  background-color: rgb(235, 196, 196);
+  display: grid;
+  justify-content:center;
+  /* fix bg-image to fit container */
+  background-image: url(https://picsum.photos/id/131/1700/700);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-size: auto;
+}
+
+.container-intro h1{
+ 
+  margin-top: 8%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 3rem;
+
+}
+.container-intro h2{
+ 
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px;
+  font-weight: 400;
+  font-size: 2rem;
+
+}
+.container-intro p{
+
+  margin-top: 40px;
+  max-width: 50%;
+  text-align: left;
+  text-transform: capitalize;
+  padding: 20px 50px;
+  font-weight: 200;
+  font-size: 1.5rem;
+  background-color: rgba(255, 255, 255, 50%);
+
+}
+.intro-text{
+  max-width:80vw;
+}
+
+.section-blog-post {
+border: 1px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+gap:10%;
+}
+
+.blog-card{
+  height:400px;
+  width:25%;
+  border: 1px solid green;
+  display: block;
 }
