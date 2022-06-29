@@ -47,7 +47,8 @@ body {
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
-  background-size: auto;
+  /* background-size: auto;
+  object-fit: cover; */
 }
 
 .container-intro h1{
@@ -84,18 +85,46 @@ body {
 .intro-text{
   max-width:80vw;
 }
+#blog-entry-title h2{
+  padding: 10px 20px;
+  margin: 0.5% 20%;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
 
-.section-blog-post {
+
+#row {
 border: 1px solid red;
 display: flex;
-justify-content: center;
+justify-content:center;
 align-items: center;
 gap:10%;
+padding-top: 2%;
 }
 
 .blog-card{
   height:400px;
-  width:25%;
+  width:400px;
   border: 1px solid green;
   display: block;
+}
+
+.blog-post-box {
+  display: grid;
+}
+
+.img-blog-card{
+  object-fit: cover;
+}
+
+.footer{
+  background-color: antiquewhite;
+  margin-top: 2%;
+}
+.footer p{
+  text-align: center;
+  padding:5px 0;
+  /* margin: 10px; */
+  text-transform: capitalize;
 }

@@ -7,60 +7,110 @@
     <link rel="stylesheet" href="./styles/main.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <title>my devacademy blog</title>
   </head>
   <body>
     <header>
+      <!-- navbar -->
       <nav id="main-menu">
         <ul class="nav-bar">
           <li class="nav-home"><a href="#">home</a></li>
-          <li class="nav-blog-post"><a href="#">blogs</a></li>
+          <li class="nav-blog-post"><a href="#blog-entry-title">blogs</a></li>
           <li class="nav-devacademy"><a href="#">devacademy</a></li>
-          <li class="nav-devacademy"><a href="#">about</a></li>    
+          <li class="nav-devacademy"><a href="#">about</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- introducing the blog, I want a bg image in this section -->
-      <section class=" section section-intro">
+      <section class="section section-intro">
         <div class="container-intro">
           <div class="intro-text">
-            <h1>yanina amatore</h1>
+            <h1>hi ! i'm yanina amatore</h1>
             <h2><em>kia ora taiao! (Hello World!)</em></h2>
-            <p>this is the beginning of my website home page.
-          It will eventually contain a list of links to all my blogs.</p>
+            <p>
+              this is the beginning of my website home page. It will eventually
+              contain a list of links to all my blogs.
+            </p>
           </div>
         </div>
       </section>
       <!-- I want my blog post to look be thumbnails links with image and text  -->
-      <section class="section section-blog-post">
-        <div class="blog-card ">
+      <section id="blog-entry-title">
+        <h2>my blog entries</h2>
+      </section>
+      <!-- Row -1 entries from Sprint-1 -->
+      <section id="row" class="section-blog-post sprint-1-blogs">
+        <div class="blog-card">
           <article class="blog-post-box">
             <!-- add alt text -->
-            <img src="https://picsum.photos/200" alt="" />
-            <h2>post title</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-              architecto.
-            </p>
+            <div>
+              <img
+                class="img-blog-card"
+                src="https://picsum.photos/id/129/400/200"
+                alt=""
+              />
+            </div>
+            <div class="text-blog-card">
+              <h2>sprint 1 - blog entry 1</h2>
+              <p>
+                Brief description about the blog entry. Brief description about
+                the blog entry. Brief description about the blog entry.
+              </p>
+            </div>
           </article>
         </div>
-        <div class="blog-card ">
+        <div class="blog-card">
           <article class="blog-post-box">
             <!-- add alt text -->
-            <img src="https://picsum.photos/200" alt="" />
-            <h2>post title</h2>
+            <img src="https://picsum.photos/id/132/400/200" alt="" />
+            <h2>sprint 1 - blog entry 2</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
-              architecto.
+              Brief description about the blog entry. Brief description about
+              the blog entry. Brief description about the blog entry.
             </p>
           </article>
         </div>
       </section>
+      <!-- Row-2 Entries Sprint-2 -->
+      <section id="row" class="section-blog-post sprint-2-blogs">
+        <div class="blog-card">
+          <article class="blog-post-box">
+            <!-- add alt text -->
+            <div>
+              <img
+                class="img-blog-card"
+                src="https://picsum.photos/id/129/400/200"
+                alt=""
+              />
+            </div>
+            <div class="text-blog-card">
+              <h2>sprint 2 - blog entry 1</h2>
+              <p>
+                Brief description about the blog entry. Brief description about
+                the blog entry. Brief description about the blog entry.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div class="blog-card">
+          <article class="blog-post-box">
+            <!-- add alt text -->
+            <img src="https://picsum.photos/id/132/400/200" alt="" />
+            <h2>sprint 2 - blog entry 2</h2>
+            <p>
+              Brief description about the blog entry. Brief description about
+              the blog entry. Brief description about the blog entry.
+            </p>
+          </article>
+        </div>
+      </section>
+      
     </main>
-    <footer>
+    <footer class="footer">
+      <p><em>“there is only one way to eat an elephant: a bite at a time.” - Desmond tutu</em></p>
+      <p>yanina amatore </p>
     </footer>
   </body>
 </html>
