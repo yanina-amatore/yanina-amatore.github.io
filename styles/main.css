@@ -87,7 +87,7 @@ body {
 }
 #blog-entry-title h2{
   padding: 10px 20px;
-  margin: 0.5% 20%;
+  text-align: center;
   text-transform: capitalize;
   font-size: 2.5rem;
   font-weight: 300;
@@ -97,15 +97,15 @@ body {
 #row {
 border: 1px solid red;
 display: flex;
-justify-content:center;
 align-items: center;
-gap:10%;
-padding-top: 2%;
+justify-content:space-around;
+/* gap:10%; */
+padding: 2% 0;
 }
 
 .blog-card{
   height:400px;
-  width:400px;
+  width:300px;
   border: 1px solid green;
   display: block;
 }
