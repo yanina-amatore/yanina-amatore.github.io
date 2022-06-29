@@ -13,8 +13,6 @@ body {
 /* Navbar */
 
 .nav-bar {
-
-  /* margin: 20px; */
   list-style: none;
   display: flex;
   flex-direction: row;
@@ -32,6 +30,11 @@ body {
   font-size: 1.1rem;
 }
 
+.nav-bar li a:hover{
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+}
 .section {
   height: 70vh;
 
@@ -40,7 +43,6 @@ body {
 
 .container-intro {
   height: 100%;
-  /* background-color: rgb(235, 196, 196); */
   display: grid;
   justify-content: center;
   /* resize this BG image to fit div */
