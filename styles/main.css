@@ -42,13 +42,11 @@ body {
   background-color: rgb(235, 196, 196);
   display: grid;
   justify-content:center;
-  /* fix bg-image to fit container
-  background-image: url(https://picsum.photos/id/131/1700/700);
+  /* resize this BG image to fit div */
+  background-image: url(https://picsum.photos/id/131/1700/900);
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
-  background-size: auto;
-  object-fit: cover; */
 }
 
 .container-intro h1{
