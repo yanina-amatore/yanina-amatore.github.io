@@ -217,6 +217,7 @@ body {
   background-color: rgba(8, 8, 8);
   /* margin-top: 2%; */
   height: 70px;
+  text-align: center;
   display: grid;
   justify-content: center;
   align-content:center;
@@ -233,6 +234,8 @@ body {
 
 .dev-name {
   font-weight: 700;
+  padding: 5px;
+  margin: 5px;
 }
 .footer-home-link,
 .footer p {
