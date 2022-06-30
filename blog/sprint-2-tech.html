@@ -27,15 +27,17 @@
         <br>
         <h2>introduction</h2>
           <p>
-          In CSS, the display property specifies the behaviour of an element. It’s a must-know for controlling the layout of an element. 
+          In CSS, the display property specifies the behaviour of an element or tag. It’s a must-know for controlling the layout of an element. 
           In this blog entry, we’ll learn the difference between the two display options: Inline and Inline-block.
          </p>
         <h3> Inline</h3>
-        <img src="../img/Screenshot 2022-06-30 143214.png" alt="inline elements are in one line">
         <p> This one displays the element on the same line. In other words, inline elements do NOT start on a new line and only take up as much width as their content. So, if you try to set any width and height, it will have NO effects.
         </p>
+        <figure>
+            <img src="../img/Screenshot 2022-06-30 143214.png" alt="inline elements are in one line">
+         </figure>
         <p>
-           Some elements have a default inline property for example: 
+           It's good to have in mind that some elements have a default inline property for example: 
         </p>
          <ul class="inline-element-list"></ul>
             <li>span</span></li>
@@ -43,19 +45,26 @@
             <li>img</li>
         <p>And most of the formatting tags are also are inherently inline</p>
         <ul class="inline-element-list">
-          <li>em</li>gir
+          <li>em</li>
           <li>strong</li>
           <li>i</li>
         </ul>
         <h3> Inline-block</h3>
-        <img src="../img/Screenshot 2022-06-30 143247.png" alt="inline-block elements are in block containers">
+        <figure>
+          <img src="../img/Screenshot 2022-06-30 143247.png" alt="inline-block elements are in block containers">
+   
+        </figure>
         <p> 
-          Displays an element as an inline-level block container. You CAN set height and width values.
+          When we displays an element as an inline-level block it looks like a container. The great news about it is that You CAN now set height and width values.
           It’s essentially the same thing as inline, except that you can set height and width values.
         </p>
-        <img src="../img/codepen.png" alt="">
-          In summary: Compared to display: inline, the major difference is that inline-block allows setting a width and height on the element. Also, with display: inline, top and bottom margins & paddings are not respected, and with display: inline-block they are.
-        </p>
+        <p>Check out a comparison between the two of them in action. In this example, I chose a DIV because it's inherently a BLOCK element and I wanted to play with other display options to show you how it behaves.</p>
+        <figure>
+          <img src="../img/codepen.png" alt="inline divs vs inline-block divs">
+        </figure>
+        <h3> In summary</h3>
+        <p> The major difference between Inline and inline-block is that the last one allows us to set a width and height on the element. Also, with display: inline, top and bottom margins & paddings are not respected, and with display: inline-block they are.</p>
+        
       </div>
     </main>
     
