@@ -17,13 +17,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgba(184, 184, 184, 10%);
-  border: 1px solid rgb(0, 22, 94);
+  background-color:rgba(184, 184, 184, 15%);
 }
 
 
 .blog-container{
-   border: 1px solid red;
+
    max-width: 70%;
    height:100%;
    background-color:#fff;
@@ -128,6 +127,34 @@ body {
   margin-bottom: 15%;
 }
 
+/* footer */
+.footer-blog-entry{
+  height: 100%;
+  background: #000;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.footer-blog-entry a{
+  padding: 5px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  }
+
+  .footer-blog-entry a:visited{
+    color:#f0f8ff;
+  }
+  .footer-blog-entry a:hover{
+background-color: rgb(255, 255, 255, 80%);
+color: #000;
+font-weight: 800;
+
+  }
 @media (min-width:700px) and (max-width:1200px){
   .codepen-img{
     max-height: 600px;

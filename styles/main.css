@@ -222,9 +222,10 @@ body {
   align-content:center;
 }
 
-.footer p {
+.footer p,
+.footer a {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 10px 0 5px 0;
   /* margin: 10px; */
   text-transform: capitalize;
@@ -242,8 +243,15 @@ body {
 .footer-home-link{
   text-transform: capitalize;
   text-align: center;
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+  
+}
+
+.footer-home-link:hover{
+  background-color: rgb(255, 255, 255, 80%);
+  color: #000;
 }
 /* media queries for footer */
 
