@@ -6,7 +6,11 @@
 html,
 body {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Nunito', sans-serif !important;
+}
+
+.nav-home-blog{
+  font-size: 2.5rem;
 }
 
 .sprint-2-tech-main{
@@ -29,6 +33,11 @@ body {
 .blog-container h1,
 .blog-container h2 {
   padding:30px 50px;
+  font-weight: 800;
+}
+
+.h1-title{
+  padding:20px 0 20px 30px!important;
 }
 
 
@@ -38,11 +47,7 @@ body {
   
 }
 
-/* .blog-container p,
-.h2 {
-  margin-left: 50px;
 
-} */
 
 
 .inline-element-list li{
@@ -50,10 +55,13 @@ body {
 
 }
 
-
-#text-head{
+#text-head,
+#blog-date{
   text-transform: capitalize;
   color:gray;
+  
+}
+#text-head{
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -87,14 +95,15 @@ body {
 }
 
 .ul li{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-style: italic;
   
 }
 .inline-img,
 .inline-block-img {
   max-height: 700px;
-  max-width:500px
+  max-width:500px;
+  margin: 30px 0;
 }
 
 .codepen-img{
@@ -114,4 +123,33 @@ body {
   padding: 50px;
   font-size: 1.2rem;
   
+}
+.summary-text{
+  margin-bottom: 15%;
+}
+
+@media (min-width:700px) and (max-width:1200px){
+  .codepen-img{
+    max-height: 600px;
+    max-width: 500px;
+   
+  }
+  .inline-img,
+  .inline-block-img {
+  max-height: 700px;
+  max-width:500px
+}
+}
+
+@media (max-width:700px){
+  .codepen-img{
+    max-height: 450px;
+    max-width: 250px;
+   
+  }
+  .inline-img,
+.inline-block-img {
+  max-height: 400px;
+  max-width:250px
+}
 }
