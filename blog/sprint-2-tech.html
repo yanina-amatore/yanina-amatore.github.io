@@ -19,38 +19,51 @@
           
         </ul>
       </nav>
-    <main class="main-background">
-      <h1>The Story of Te Houtaewa (PAGE heading)</h1>
-      <h2>
-        E kore e mau i a koe, he wae kai pakiaka.
-        <em
-          >A foot accustomed to running over roots makes the speediest
-          runner.</em
-        >
-        (Optional SUB title)
-      </h2>
-      <h3>10 November 2010</h3>
-
-      <p>
-        Te Houtaewa was the fastest runner of his day and played many pranks on
-        his peoples enemies. One morning his mother wanted kumara for the hangi
-        (earth oven) and asked Te Houtaewa to go to the gardens at Te Kao, a
-        short distance away. He agreed to fetch the kumara and told his mother
-        to prepare the hangi.
-      </p>
-      <p>
-        Instead of going to the nearby gardens, Te Houtaewa set off for Ahipara
-        as he wanted to annoy some Te Rarawa people who lived there. Carrying
-        two large baskets for the kumara, he ran like the wind, completing the
-        journey over the hard sands of Te Oneroa a Tohe (Ninety Mile Beach) in
-        the few hours it takes a good hangi to heat up properly. On reaching
-        Ahipara, he went straight to the people's kumara pataka (storehouse for
-        the sweet potatoes) situated at the foot of the hill Whangatauatia.
-      </p>
-      <p>
-        While Te Houtaewa was filling his baskets with kumara he was spotted
-        stealing the kai (food). He was immediately recognised.
-      </p>
+    <main class="sprint-2-tech-main">
+      <div class="blog-container">
+        <p>technichal blog CSS concepts</p>
+        <h1>Inline vs Inline-Block Display in CSS</h1>
+        <p>30 june 2022</p>
+        <br>
+        <h2>introduction</h2>
+          <p>
+          In CSS, the display property specifies the behaviour of an element. It’s a must-know for controlling the layout of an element. 
+          In this blog entry, we’ll learn the difference between the two display options: Inline and Inline-block.
+         </p>
+        <h3> Inline</h3>
+        <img src="../img/Screenshot 2022-06-30 143214.png" alt="inline elements are in one line">
+        <p> This one displays the element on the same line. In other words, inline elements do NOT start on a new line and only take up as much width as their content. So, if you try to set any width and height, it will have NO effects.
+        </p>
+        <p>
+           Some elements have a default inline property for example: 
+        </p>
+         <ul class="inline-element-list"></ul>
+            <li>span</span></li>
+            <li>a</li>
+            <li>img</li>
+        <p>And most of the formatting tags are also are inherently inline</p>
+        <ul class="inline-element-list">
+          <li>em</li>gir
+          <li>strong</li>
+          <li>i</li>
+        </ul>
+        <h3> Inline-block</h3>
+        <img src="../img/Screenshot 2022-06-30 143247.png" alt="inline-block elements are in block containers">
+        <p> 
+          Displays an element as an inline-level block container. You CAN set height and width values.
+          It’s essentially the same thing as inline, except that you can set height and width values.
+        </p>
+        <img src="../img/codepen.png" alt="">
+          In summary: Compared to display: inline, the major difference is that inline-block allows setting a width and height on the element. Also, with display: inline, top and bottom margins & paddings are not respected, and with display: inline-block they are.
+        </p>
+      </div>
     </main>
+    
+    <footer class="footer">
+      
+      <a href="#home">home</a>
+     
+      <p class="dev-name">yanina amatore - 2022 </p>
+    </footer>
   </body>
 </html>
