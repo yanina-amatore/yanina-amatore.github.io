@@ -73,6 +73,9 @@ body {
 
 }
 
+.intro-text {
+  max-width: 80vw;
+}
 .container-intro p {
   margin: 40px 0;
   max-width: 70%;
@@ -81,13 +84,8 @@ body {
   padding: 20px 50px;
   font-weight: 200;
   font-size: 1.5rem;
- 
+ }
 
-}
-
-.intro-text {
-  max-width: 80vw;
-}
 
 /* media queries for section intro */
 
@@ -95,12 +93,7 @@ body {
   .container-intro p {
     margin-top: 40px;
     max-width: 100%;
-    text-align: left;
-    text-transform: capitalize;
-    padding: 20px 20px;
-    font-weight: 200;
-    font-size: 1.5rem;
-    
+    padding: 20px 20px;   
   
   }
 }
