@@ -1,5 +1,8 @@
 /* 1-Global styles */
 /* Homepage style */
+/* Sprint 2 Blog Styles */
+/* Emotional-intelligence Blog */
+/* --------------------------------------------------------- */
 
 /* global styles */
 * {
@@ -458,4 +461,12 @@ text-transform: capitalize;
     max-height: 400px;
     max-width: 250px
   }
+}
+
+/* sprint-3 */
+/* Emotional-intelligence Blog */
+
+.ei-list li{
+  list-style-position: inside;
+  list-style-type: disc;
 }
