@@ -550,3 +550,20 @@ h2:first-letter {
     display: inline;
   }
 }
+
+/*  --- Sprint - 3  JS Blog ---*/
+
+.p-comments{
+  color: #0000ff
+}
+
+.recipe-list{
+  list-style-position: inside;
+  padding: 30px;
+  
+}
+
+.recipe-list li,
+.recipe-list p{
+max-width: 500px;
+}
