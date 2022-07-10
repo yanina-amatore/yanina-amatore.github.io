@@ -292,6 +292,7 @@ body {
   max-width: 85%;
   height: 100%;
   background-color: #fff;
+ 
 
 }
 
@@ -622,13 +623,46 @@ padding: 40px 30px
 
 }
 
+/* media query for recipe picture */
 @media (max-width: 768px) {
   .dahl-pic{
-    /* display: inline-block;
-    float: right; */
+    
     max-height: 500px;
     min-width: auto;
     /* margin: 30px 30px; */
   }
 
 }
+
+.dom-img{
+  max-width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .dom-img img{
+    max-width: 90%;
+
+  }
+}
+
+@media (min-width: 1400px) {
+  #dom-id{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+}
+
+.dom-img img{
+  /* display: inline; */
+  }
+
+  /* indentation test*/
+
+  /* .blog-p{
+    text-indent: 30px;
+  } */
+
+  blo
