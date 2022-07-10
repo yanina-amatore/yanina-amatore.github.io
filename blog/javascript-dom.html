@@ -51,68 +51,94 @@
         </div>
          
           <!-- question 2 -->
-          <h2 class="h2">Explain control flow and loops using an example process from everyday life, for example, 'waking up' or 'brushing your teeth' (but not those).</h2>
+          <h2 class="h2">Explain control flow and loops using an example process from everyday life.</h2>
           <p class="blog-p">Control flow is how your computer reads and runs code from top to bottom. It starts from the first line and ends at the last line unless it hits any statement that changes the program's control flow (loops, conditionals, or functions). These mentioned loops repeatedly run a code block until a specific condition is met. Only then the computer will jump to read the following line. To understand it better, let's check an everyday example.</p> 
           <p class="blog-p">These days that I'm doing dev academy, my partner is the designated house cook. To make life easy, we decided to do Hello Fresh( a meal delivery service with pre-packed ingredients and portions). To successfully cook their meals, he must read and follow the recipes instructions from top to bottom like using control flow, or we might end up with a failed dinner. </p>
           <p class="blog-p">If we Apply the control flow and loops concepts, the recipe steps will look like this:</p>
-          <p class="blog-p">QUICK & EASY RED LENTIL DAHL</p>
-          <ol class="recipe-list">
-            <li>chop onions</li>
-            <li>place a pan over medium heat.</li>
-            <li>saute the chopped onions in olive oil and stir them for 5 minutes (loop)</li>
-             <p class="p-comments">// --- the line above is a loop in which zack has to complete the action until the condition of 5 min is met -- //</p>
-            <li>add chopped garlic and ginger</li>
-            <li>cook for 1 min</li>
-            <li>add the garam masala, turmeric and red pepper flakes to the pan</li>
-            <li>stir the onion and spice mixture for 2 minutes</li>
-            <li>if the mix is too dry, add a few tablespoons of water (conditional)</li>
-              <p class="p-comments">// -- the line above has a conditional. When zack runs into it, he has to determine if the condition is met to continue with the recipe or else he has to "add a few spoons of water -- //</p>
-            <li>add the dried lentils</li>
-            <li>add canned tomatoes and their juices</li>
-            <li>add coconut milk and vegetable broth to the pan</li>
-            <li>stir well and turn the heat to high</li>
-            <li>bring to a boil </li>
-            <li>then lower heat and simmer for about 15 minutes, until the lentils are cooked and soft.</li>
-              <p class="p-comments">// --- the line above is a loop in which the mixture has to simmer for 15 min, and once the condition is met, the loop ends, and zack can go to the next step -- //</p>
-            <li>stir occasionally</li>
-            <li>squeeze the lemon juice into the pan</li>
-            <li>stir in the spinach as well until wilted</li>
-            <li>Add salt to taste</li>
-            <li>Serve with brown or white rice and Vegan Naan. Enjoy!</li>             
-              
-          </ol>
-          <br>    
-          <p>Full recipe <a href="https://www.noracooks.com/red-lentil-dahl/">https://www.noracooks.com/red-lentil-dahl/</a></p>
+          <div class="recipe-container">
+            <div class="right-section">
+              <p class="blog-p">QUICK & EASY RED LENTIL DAHL</p>
+              <!-- <br> -->
+              <ol class="recipe-list">
+                <li>chop onions</li>
+                <li>place a pan over medium heat.</li>
+                <li>saute the chopped onions in olive oil and stir them for 5 minutes (loop)</li>
+                   <p class="p-comments">// --- the line above is a loop in which zack has to complete the action until the condition of 5 min is met -- //</p>
+                <li>add chopped garlic and ginger</li>
+                <li>cook for 1 min</li>
+                <li>add the garam masala, turmeric and red pepper flakes to the pan</li>
+                <li>stir the onion and spice mixture for 2 minutes</li>
+                <li>if the mix is too dry, add a few tablespoons of water (conditional)</li>
+                  <p class="p-comments">// -- the line above has a conditional. When zack runs into it, he has to determine if the condition is met to continue with the recipe or else he has to "add a few spoons of water -- //</p>
+                <li>add the dried lentils</li>
+                <li>add canned tomatoes and their juices</li>
+                <li>add coconut milk and vegetable broth to the pan</li>
+                <li>stir well and turn the heat to high</li>
+                <li>bring to a boil </li>
+                <li>then lower heat and simmer for about 15 minutes, until the lentils are cooked and soft.</li>
+                  <p class="p-comments">// --- the line above is a loop in which the mixture has to simmer for 15 min, and once the condition is met, the loop ends, and zack can go to the next step -- //</p>
+               <li>stir occasionally</li>
+               <li>squeeze the lemon juice into the pan</li>
+               <li>stir in the spinach as well until wilted</li>
+               <li>Add salt to taste</li>
+               <li>Serve with brown or white rice and Vegan Naan. Enjoy!</li>          
+            </ol>
+           
+
+          </div>
+          <div class="left-section">
+            <img  class= "dahl-pic" src="../img/sprint-3/dahl.jpg" alt="red dahl curry" />
+            <figcaption><a href="https://www.noracooks.com/red-lentil-dahl/">https://www.noracooks.com/red-lentil-dahl/</a></figcaption>
+          </div>
+        </div>
+          
           <!-- question 3 -->
           <h2 class="h2">Describe what the DOM is and an example of how you might interact with it. </h2>
           <p class="blog-p">The DOM stands for Document Object Model. It can simply be understood as a tree of nodes created by the browser. t's like a family tree, except each object, method, or property has only one parent. Each of the nodes has its own properties and methods which can be manipulated using JavaScript.</p>
-          <p class="blog-p">Image</p>
+          <figure class="dom-img">
+            <img src="../img/sprint-3/DOM.png" alt="">
+          </figure>
           <p class="blog-p">The most common way to access an HTML element is to use the id of the element.
             In the example below the getElementById() method used to find the element  "div id="byId" and modify it.</p>
           <p class="blog-p">I made a simple  webpage  in VS code and   then open  it in the browser and inspect it using the Dev Tools.
             In the elements tab we can see the HTML  tree like page organization mentioned before and in the style box and  we can see the styling properties that have been applied using css. In this case the text  attribute  color:blue has been applied to all the text nested in this parent "div id=byId"
             </p>
-            <p>image</p>
+            <figure class="dom-img">
+              <img src="../img/sprint-3/before-11.jpg" alt="">
+            <img src="../img/sprint-3/before-22.jpg" alt="">
+              
+            </figure>
             <p class="blog-p">we said that JS can  manipulate the elements(nodes) using their properties and methods. So in the next illustrations we’ll be  changing the node "div id=byId" font color and by doing so the property will also be passed to his children  "h1" and "p"  </p>
             <p class="blog-p">We’ll use the method getElementById to target the button id=btnId  and the div id=”byId  to make the div font change color when the button is clicked and also changing the button text to “button clicked”</p>
-            <p>image</p>
-            <p>image</p>
-            <p>image</p>
+           <figure>
+            <img src="../img/sprint-3/js-ex.jpg" alt="" />
+            <img src="../img/sprint-3/after-2b.jpg" alt="" />
+            <img src="../img/sprint-3/after-2.jpg" alt="" />
+           </figure>
+            
 
             <!-- question 4 -->
           <h2 class="h2">Explain the difference between accessing data from arrays and objects.</h2>
           <p class="blog-p">An array and an object are variables in JavaScript and they are both a form of data collection.</p>
-          <p>image</p>
+          <figure>
+            <img src="../img/sprint-3/object1.jpg" alt="">
+          </figure>
           <p class="blog-p">We access data from arrays and objects in different ways. To access data in things, we use either dot or bracket notation. To get the value of the age key in our person object with both dot and bracket notation, we’d write:
           </p>
-          <p>image</p>
+          <figure>
+            <img src="../img/sprint-3/object2.jpg" alt="">
+          </figure>
           <p class="blog-p">We need to use the index position inside square brackets to access data from an Array. Arrays use zero-based indexing, so the first item in an array has an index of 0, the second item has an index of 1, and so on. For instance, if we wanted to access the third item (‘Mexico City’) in the Array example, we need to refer to it as [2].</p>
-          <p>image</p>
+          <figure>
+            <img src="../img/sprint-3/array-ex.jpg" alt="">
+          </figure>
            <!-- question 5 -->
           <h2 class="h2">Explain what functions are and why they are helpful.</h2>  
           <p class="blog-p">A function in JavaScript is similar to a procedure—a set of statements  that have been grouped together because they perform a specific task. The statements in a function are not always executed when a page is load, so functions also offer a way to store the steps needed to achieve a task. When  the script repeat the same task, you can reuse the function (rather than repeating the same set of statements). You need to provide a name for your function in order to call that name  if you want it to perform a task later. </p>
           
-          <p>image ?</p>
+          <figure>
+            <img src="../img/sprint-3/function-anatomy.png" alt="Placeholder"/>
+          </figure>>
         
           
         </div>

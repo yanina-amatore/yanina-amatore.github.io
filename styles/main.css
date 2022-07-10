@@ -561,13 +561,14 @@ h2:first-letter {
 
 .recipe-list {
   list-style-position: inside;
-  padding: 30px;
+  /* padding: 30px; */
 
 }
 
 .recipe-list li,
 .recipe-list p {
-  max-width: 500px;
+  max-width: 450px;
+  padding: 0 30px;
 }
 
 .img-responsive {
@@ -586,14 +587,48 @@ h2:first-letter {
   text-align: center;
  
 }
-
+/* thor pic styles */
 .img-responsive figcaption{
   padding: 10px 0px;
 }
 
+/* media query for thor pictures small screen  */
 @media (max-width: 550px) {
   .img-responsive img{
     max-width: 300px;
+  }
+
+}
+
+.recipe-container{
+  display: flex;
+  gap:30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+.dahl-pic{
+
+  max-height: 500px;
+  min-width: 250px;
+  /* margin: 30px 30px; */
+}
+
+.left-section{
+display: grid;
+justify-content: center;
+align-items: center;  
+padding: 40px 30px
+
+}
+
+@media (max-width: 768px) {
+  .dahl-pic{
+    /* display: inline-block;
+    float: right; */
+    max-height: 500px;
+    min-width: auto;
+    /* margin: 30px 30px; */
   }
 
 }
