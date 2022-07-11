@@ -94,7 +94,7 @@ body {
   font-size: 1.5rem;
 }
 
-.container-intro p:first-letter {
+.yani-intro:first-letter {
   text-transform: capitalize;
 }
 
@@ -319,7 +319,7 @@ h2:first-letter {
 }
 
 .h1-title {
-  padding: 20px 0 20px 50px !important;
+  padding: 20px 0 20px 50px;
 }
 
 
@@ -354,10 +354,10 @@ h2:first-letter {
 
 .h1,
 .h2 {
-  text-transform: capitalize;
   font-weight: 600;
 }
 
+/* text-transform: capitalize; */
 
 .h1 {
   font-size: 2.5rem;
@@ -657,4 +657,129 @@ padding: 40px 30px
 
 .js-blog-container{
  background-image: linear-gradient(to right, #DECBA4, #3E5151);;
+}
+
+/*  Sprint 4 - Core Blog */
+
+
+.blog-container-neuro {
+
+  max-width: 80%;
+  height: 100%;
+  background-color: #fff;
+ 
+
+}
+
+.h1-title,
+.h2,
+.h3,
+.h4 {
+  /* padding: 30px 50px; */
+  max-width: 90%;
+}
+
+.h2,
+.h3,
+.h4 {
+  padding: 10px 50px;
+  
+}
+
+
+.h1-title {
+  padding: 30px 50px;
+  font-weight: 800;
+}
+
+.h3,
+.h4{
+  font-weight: 500;
+}
+.h3{
+  font-size:1.5rem;
+}
+
+.h4{
+  font-size:1.2rem;
+}
+
+/* media query to fix h1-title in small screens */
+@media (max-width: 600px) {
+  
+  .h1-title {
+    padding: 20px 0 20px 10px;
+    font-size:1.5rem;
+    
+  } 
+}
+
+/* media query for blog-p and titles responsiveness*/
+
+@media (min-width: 850px) {
+  .blog-p {
+  padding: 20px 120px;
+  }
+  
+
+.h2,
+.h3,
+.h4 {
+  padding: 30px 0px 30px 120px;
+  
+}
+.h1-title,
+.header-text,
+.header-date{
+  padding-left:110px;
+}
+}
+
+.video-list{
+  margin: 30px 0 30px 10%;
+  
+  list-style-type: none;
+}
+
+.video-list li {
+  list-style-position: inside;
+  font-size: 1.5rem;
+  text-align: left;
+  max-width: 80%;
+  padding: 20px;
+}
+
+.video-list li a{
+  text-decoration: none;
+
+}
+
+.video-list li::first-letter {
+  text-transform: capitalize;
+}
+
+.video-list::before {
+	content: url('../img/sprint-4/play.png');
+}
+
+
+.figure-container{
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+.img-neuro-container {
+  /* width: 100%; */
+  /* border: 1px solid black; */
+  margin: 20px;
+}
+
+.img-neuro-container img{
+  width: 100%;
+}
+
+
+@media (min-width: 1020px) {
+
+  
 }
