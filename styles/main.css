@@ -2,7 +2,7 @@
 /* Homepage style */
 /* Sprint 2 Blog Styles */
 /* Emotional-intelligence Blog */
-/* --------------------------------------------------------- */
+/* Sprint-3  JS Blog */--------------------------------------------------------- */
 
 /* global styles */
 * {
@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding: 25px;
+  /* padding: 25px; */
 
 }
 
@@ -554,7 +554,7 @@ h2:first-letter {
   }
 }
 
-/*  --- Sprint - 3  JS Blog ---*/
+/*  --- Sprint-3  JS Blog ---*/
 
 .p-comments {
   color: #0000ff
@@ -655,14 +655,6 @@ padding: 40px 30px
   
 }
 
-.dom-img img{
-  /* display: inline; */
-  }
-
-  /* indentation test*/
-
-  /* .blog-p{
-    text-indent: 30px;
-  } */
-
-  blo
+.js-blog-container{
+ background-image: linear-gradient(to right, #DECBA4, #3E5151);;
+}
