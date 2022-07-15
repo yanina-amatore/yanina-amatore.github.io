@@ -828,33 +828,62 @@ h2:first-letter {
   background-color: rgb(187, 187, 187);
   text-decoration: underline;
 }
-.section-2-figure{
+
+.section-2-figure {
   border: 1px dashed red;
   margin: 30px 0px;
   text-align: center;
 }
-.leo-meme{
-  max-width:70%;
+
+.leo-meme {
+  max-width: 70%;
   height: auto;
-  
+
 }
 
-@media (max-width:767px){
-  .leo-meme{
-    max-width:80%;
+@media (max-width:767px) {
+  .leo-meme {
+    max-width: 80%;
     height: auto;
-    
+
   }
 }
 
-.red-text{
+.red-text {
   color: #ff0000;
 }
-.sub-style{
+
+.sub-style {
   font-family: 'Signika Negative', sans-serif;
   font-weight: 600;
   background-color: rgb(247, 104, 104);
-  color:#f0f8ff;
-  padding:2px;
-  
+  color: #f0f8ff;
+  padding: 2px;
+
+}
+
+.figure-container-img {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px
+}
+
+.box-1,
+.box-2 {
+  width: 40%;
+}
+
+.replit-img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+
+  .box-1,
+  .box-2 {
+    width: 80%;
+  }
 }
