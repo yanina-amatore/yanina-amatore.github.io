@@ -4,6 +4,10 @@
 /* Emotional-intelligence Blog */
 /* Sprint-3  JS Blog */--------------------------------------------------------- */
 
+
+/* font-family styles*/
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
 /* global styles */
 * {
   box-sizing: border-box;
@@ -806,7 +810,10 @@ padding: 40px 30px
   display: grid;
   justify-content: center;
   align-items: center;
- 
+  border:1px solid orange;
+ }
 
-
-}
+ .b-h2{
+  background-color: rgb(187, 187, 187);
+ text-decoration: underline;
+ }
