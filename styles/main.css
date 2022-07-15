@@ -783,6 +783,7 @@ h2:first-letter {
 
 .section-title {
   border: 1px solid green;
+  margin:30px 0 ;
   /* margin-left: 20px; */
   padding-left: 40px;
 
@@ -809,6 +810,7 @@ h2:first-letter {
   font-weight: 800;
   font-size: 2rem;
   text-transform: capitalize;
+  padding: 20px 0;
 }
 
 .capitalize::first-letter {
@@ -830,28 +832,24 @@ h2:first-letter {
 }
 
 .section-2-figure {
-  border: 1px dashed red;
   margin: 30px 0px;
   text-align: center;
 }
 
-.leo-meme {
+.img-fit{
   max-width: 70%;
   height: auto;
 
 }
 
 @media (max-width:767px) {
-  .leo-meme {
+  .img-fit{
     max-width: 80%;
     height: auto;
 
   }
 }
 
-.red-text {
-  color: #ff0000;
-}
 
 .sub-style {
   font-family: 'Signika Negative', sans-serif;
@@ -859,7 +857,12 @@ h2:first-letter {
   background-color: rgb(247, 104, 104);
   color: #f0f8ff;
   padding: 2px;
-
+  
+}
+.span-text {
+  color: rgb(247, 104, 104);
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 .figure-container-img {
@@ -885,5 +888,11 @@ h2:first-letter {
   .box-1,
   .box-2 {
     width: 80%;
+  }
+}
+
+@media (max-width:600px) {
+  .h1-blog-title {
+    font-size: 1.8rem;    
   }
 }
