@@ -2,12 +2,17 @@
 /* Homepage style */
 /* Sprint 2 Blog Styles */
 /* Emotional-intelligence Blog */
-/* Sprint-3  JS Blog */--------------------------------------------------------- */
+/* Sprint-3  JS Blog */
 
 
 /* font-family styles*/
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 
+/* typography  Styles*/
+
+.h2{
+  font-family: 'Signika Negative', sans-serif;
+}
 /* global styles */
 * {
   box-sizing: border-box;
