@@ -10,9 +10,10 @@
 
 /* typography  Styles*/
 
-.h2{
+.h2 {
   font-family: 'Signika Negative', sans-serif;
 }
+
 /* global styles */
 * {
   box-sizing: border-box;
@@ -301,11 +302,11 @@ body {
   max-width: 85%;
   height: 100%;
   background-color: #fff;
- 
+
 
 }
 
-.h1-title::first-letter{
+.h1-title::first-letter {
   text-transform: capitalize;
 }
 
@@ -581,47 +582,48 @@ h2:first-letter {
 
   display: inline-block;
   text-align: center;
- 
+
 }
+
 /* thor pic styles */
-.img-responsive figcaption{
+.img-responsive figcaption {
   padding: 10px 0px;
 }
 
 /* media query for thor pictures small screen  */
 @media (max-width: 550px) {
-  .img-responsive img{
+  .img-responsive img {
     max-width: 300px;
   }
 
 }
 
-.recipe-container{
+.recipe-container {
   display: flex;
-  gap:30px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
   align-content: space-between;
 }
-.dahl-pic{
+
+.dahl-pic {
 
   max-height: 500px;
   min-width: 250px;
   /* margin: 30px 30px; */
 }
 
-.left-section{
-display: grid;
-justify-content: center;
-align-items: center;  
-padding: 40px 30px
-
+.left-section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 30px
 }
 
 /* media query for recipe picture */
 @media (max-width: 768px) {
-  .dahl-pic{
-    
+  .dahl-pic {
+
     max-height: 500px;
     min-width: auto;
     /* margin: 30px 30px; */
@@ -629,29 +631,30 @@ padding: 40px 30px
 
 }
 
-.dom-img{
+.dom-img {
   max-width: 100%;
   text-align: center;
 }
 
 @media (max-width: 768px) {
-  .dom-img img{
+  .dom-img img {
     max-width: 90%;
 
   }
 }
 
 @media (min-width: 1400px) {
-  #dom-id{
+  #dom-id {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
 }
 
-.js-blog-container{
- background-image: linear-gradient(to right, #DECBA4, #3E5151);;
+.js-blog-container {
+  background-image: linear-gradient(to right, #DECBA4, #3E5151);
+  ;
 }
 
 /*  Sprint 4 - Core Blog */
@@ -662,7 +665,7 @@ padding: 40px 30px
   max-width: 80%;
   height: 100%;
   background-color: #fff;
- 
+
 
 }
 
@@ -678,7 +681,7 @@ padding: 40px 30px
 .h3,
 .h4 {
   padding: 10px 50px;
-  
+
 }
 
 
@@ -688,51 +691,53 @@ padding: 40px 30px
 }
 
 .h3,
-.h4{
+.h4 {
   font-weight: 500;
 }
-.h3{
-  font-size:1.5rem;
+
+.h3 {
+  font-size: 1.5rem;
 }
 
-.h4{
-  font-size:1.2rem;
+.h4 {
+  font-size: 1.2rem;
 }
 
 /* media query to fix h1-title in small screens */
 @media (max-width: 600px) {
-  
+
   .h1-title {
     padding: 20px 0 20px 10px;
-    font-size:1.5rem;
-    
-  } 
+    font-size: 1.5rem;
+
+  }
 }
 
 /* media query for blog-p and titles responsiveness*/
 
 @media (min-width: 850px) {
   .blog-p {
-  padding: 20px 120px;
+    padding: 20px 120px;
   }
-  
 
-.h2,
-.h3,
-.h4 {
-  padding: 30px 0px 30px 120px;
-  
-}
-.h1-title,
-.header-text,
-.header-date{
-  padding-left:110px;
-}
+
+  .h2,
+  .h3,
+  .h4 {
+    padding: 30px 0px 30px 120px;
+
+  }
+
+  .h1-title,
+  .header-text,
+  .header-date {
+    padding-left: 110px;
+  }
 }
 
-.video-list{
+.video-list {
   margin: 30px 0 30px 10%;
-  
+
   list-style-type: none;
 }
 
@@ -744,7 +749,7 @@ padding: 40px 30px
   padding: 20px;
 }
 
-.video-list li a{
+.video-list li a {
   text-decoration: none;
 
 }
@@ -754,71 +759,88 @@ padding: 40px 30px
 }
 
 .video-list::before {
-	content: url('../img/sprint-4/play.png');
+  content: url('../img/sprint-4/play.png');
 }
 
 
-.figure-container{
+.figure-container {
   display: grid;
   align-content: center;
   justify-content: center;
 }
+
 .img-neuro-container {
   /* width: 100%; */
   /* border: 1px solid black; */
   margin: 20px;
 }
 
-.img-neuro-container img{
+.img-neuro-container img {
   width: 100%;
 }
 
 /*  Sprint 4 */
 
-.section-title{
+.section-title {
   border: 1px solid green;
   /* margin-left: 20px; */
   padding-left: 40px;
-  
+
 }
-.top-title{
+
+.top-title {
   border-bottom: 2px solid rgb(96, 96, 96);
   max-width: 90%;
 }
 
-.header-text-blog{
+.header-text-blog {
   font-size: 1.5rem;
   font-weight: 300;
 
 }
 
-.header-text-blog, 
+.header-text-blog,
 .header-blog-date {
-    text-transform: capitalize;
-    color: gray;
+  text-transform: capitalize;
+  color: gray;
 }
 
-.h1-blog-title{
+.h1-blog-title {
   font-weight: 800;
   font-size: 2rem;
   text-transform: capitalize;
 }
 
-.capitalize::first-letter{
+.capitalize::first-letter {
   text-transform: capitalize;
 }
 
-.giff{
-  max-width: 90%;
+.giff {
+
   text-align: center;
-  border:1px solid blue;
   display: grid;
   justify-content: center;
   align-items: center;
-  border:1px solid orange;
- }
 
- .b-h2{
+}
+
+.b-h2 {
   background-color: rgb(187, 187, 187);
- text-decoration: underline;
- }
+  text-decoration: underline;
+}
+.section-2-figure{
+  border: 1px dashed red;
+  margin: 30px 0px;
+  text-align: center;
+}
+.leo-meme{
+  /* display:block; */
+  /* margin:auto; */
+  max-width:70%;
+  height: auto;
+  
+}
+
+.red-text{
+  color: #ff0000;
+}
