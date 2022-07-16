@@ -701,6 +701,15 @@ h2:first-letter {
 
 .h4 {
   font-size: 1.2rem;
+  ;
+}
+.h4-sub{
+ 
+  background-color: rgb(229, 130, 158);
+  color: #fff;
+  padding: 3px;
+  display: inline-block;
+
 }
 
 /* media query to fix h1-title in small screens */
@@ -904,3 +913,21 @@ h2:first-letter {
 .bg-class{
   background-color:#F9F2ED
 }
+
+.iframe-about {
+ position: relative;
+ overflow: hidden;
+ padding-top: 56.25%; 
+
+ margin-bottom: 20px;
+ text-align: center;
+}
+
+.iframe-youtube {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+
+} 
