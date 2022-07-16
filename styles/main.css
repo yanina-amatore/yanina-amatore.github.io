@@ -897,6 +897,10 @@ h2:first-letter {
 }
 
 .text-box{
-  border: 5px solid rgb(247, 104, 104);;
-  margin: 10px;
+  /* border: 5px solid rgb(247, 104, 104); */
+  margin: 50px;
+}
+
+.bg-class{
+  background-color:#F9F2ED
 }
