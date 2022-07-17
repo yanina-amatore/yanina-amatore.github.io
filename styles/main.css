@@ -298,10 +298,14 @@ body {
 
 
 .blog-container {
-
   max-width: 85%;
   height: 100%;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 
 
 }
@@ -320,9 +324,14 @@ h2:first-letter {
 
 
 .blog-p {
+  max-width: 100%;
   font-weight: 400;
   font-size: 1.5rem;
   padding: 20px 50px;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  text-align: justify;
+
 }
 
 .inline-element-list li {
@@ -480,17 +489,42 @@ h2:first-letter {
   width: 250px;
 
 }
+.list-row{
+  max-width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.blog-list{
+  width: 90%;
+  border-radius: 20%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(246, 211, 211, 0.2);
+  
+}
+@media (max-width: 768px) {
+  .blog-list{
+    width: 100%;
+  }
+}
 
 .ei-list {
-  margin: 30px 0 30px 10%;
+  margin: 0px 30px 30px 30px;
+  padding: 10px 20px;
+  text-align: center;
 }
 
 .ei-list li {
+  
+  padding: 5px 20px;
   list-style-position: inside;
   list-style-type: circle;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-align: left;
-  max-width: 80%;
 }
 
 .ei-list li::first-letter {
@@ -548,7 +582,14 @@ h2:first-letter {
   .header-text {
     display: inline;
   }
-}
+
+  .blog-p {
+    text-align: left;
+    word-spacing: 2px;
+    padding: 20px;
+  }
+
+ }
 
 /*  --- Sprint-3  JS Blog ---*/
 
@@ -697,14 +738,16 @@ h2:first-letter {
 
 .h3 {
   font-size: 1.5rem;
+  text-decoration: underline ;
 }
 
 .h4 {
   font-size: 1.2rem;
   ;
 }
-.h4-sub{
- 
+
+.h4-sub {
+
   background-color: rgb(229, 130, 158);
   color: #fff;
   padding: 3px;
@@ -905,29 +948,63 @@ h2:first-letter {
   }
 }
 
-.text-box{
+.text-box {
   /* border: 5px solid rgb(247, 104, 104); */
   margin: 50px;
 }
 
-.bg-class{
-  background-color:#F9F2ED
+.bg-class {
+  background-color: #F9F2ED
+}
+
+.iframe-boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+
 }
 
 .iframe-about {
- position: relative;
- overflow: hidden;
- padding-top: 56.25%; 
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
 
- margin-bottom: 20px;
- text-align: center;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .iframe-youtube {
- position: absolute;
- top: 0;
- left: 0;
- width: 100%;
- height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 
-} 
+}
+
+.iframe-container {
+  width: 50%;
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .iframe-container {
+
+    width: 90%
+  }
+}
+
+.section-4 {
+  width: 100%;
+}
+
+
+
+.list-heading {
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+}
