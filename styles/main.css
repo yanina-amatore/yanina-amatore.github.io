@@ -489,12 +489,14 @@ h2:first-letter {
   width: 250px;
 
 }
-.list-row{
+
+.list-row {
   max-width: 100%;
   display: grid;
   justify-content: center;
 }
-.blog-list{
+
+.blog-list {
   width: 90%;
   border-radius: 20%;
   padding: 20px;
@@ -504,10 +506,11 @@ h2:first-letter {
   justify-content: center;
   align-items: center;
   background: rgb(246, 211, 211, 0.2);
-  
+
 }
+
 @media (max-width: 768px) {
-  .blog-list{
+  .blog-list {
     width: 100%;
   }
 }
@@ -519,7 +522,7 @@ h2:first-letter {
 }
 
 .ei-list li {
-  
+
   padding: 5px 20px;
   list-style-position: inside;
   list-style-type: circle;
@@ -589,7 +592,7 @@ h2:first-letter {
     padding: 20px;
   }
 
- }
+}
 
 /*  --- Sprint-3  JS Blog ---*/
 
@@ -738,7 +741,7 @@ h2:first-letter {
 
 .h3 {
   font-size: 1.5rem;
-  text-decoration: underline ;
+  text-decoration: underline;
 }
 
 .h4 {
