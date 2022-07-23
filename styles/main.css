@@ -27,6 +27,27 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* bg-Styles */
+
+
+.bg-sprint1{
+  background-color: rgba(184, 184, 184, 15%);
+}
+.bg-sprint2{
+  background-color: rgba(184, 184, 184, 15%);
+}
+.bg-sprint3{
+  background-color: rgba(184, 184, 184, 15%);
+}
+
+.bg-sprint4 {
+  background-color: #F9F2ED
+}
+
+.bg-sprint5{
+  background-color: rgba(47, 115, 26, 10%)
+}
+
 /* Navbar */
 
 .nav-bar {
@@ -289,11 +310,11 @@ body {
   font-size: 2.5rem;
 }
 
-.sprint-2-tech-main {
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(184, 184, 184, 15%);
+  
 }
 
 
@@ -938,9 +959,7 @@ h2:first-letter {
   margin: 50px;
 }
 
-.bg-class {
-  background-color: #F9F2ED
-}
+
 
 .iframe-boxes {
   display: flex;
