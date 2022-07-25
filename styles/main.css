@@ -4,6 +4,8 @@
 /* Emotional-intelligence Blog */
 /* Sprint-3  JS Blog */
 
+/* Icons */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
 
 /* font-family styles*/
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
@@ -30,13 +32,15 @@ body {
 /* bg-Styles */
 
 
-.bg-sprint1{
+.bg-sprint1 {
   background-color: rgba(184, 184, 184, 15%);
 }
-.bg-sprint2{
+
+.bg-sprint2 {
   background-color: rgba(184, 184, 184, 15%);
 }
-.bg-sprint3{
+
+.bg-sprint3 {
   background-color: rgba(184, 184, 184, 15%);
 }
 
@@ -44,7 +48,7 @@ body {
   background-color: #F9F2ED
 }
 
-.bg-sprint5{
+.bg-sprint5 {
   background-color: rgba(47, 115, 26, 10%)
 }
 
@@ -314,7 +318,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 
@@ -572,7 +576,7 @@ h2:first-letter {
   text-align: center;
 }
 
-.ei-img{
+.ei-img {
   background-color: #ffa20080;
 }
 
@@ -1041,16 +1045,47 @@ h2:first-letter {
 
 /*  Learning plan review */
 
-.hr{
+.hr {
   margin: 0 50px;
   /* height: 3px; */
   border: 1px solid #000
 }
 
+.div-figure-column {
+
+  display: flex;
+  justify-content: center;
+}
+
 .div-figure-row1,
-.div-figure-row2{
+.div-figure-row2 {
+  max-width: 45%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 30px 0;
+  margin: 20px 0;
+
+}
+
+/* make Carrer pathway graph responsive */
+@media (max-width: 764px) {
+
+  .div-figure-column {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-figure-row1,
+  .div-figure-row2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+
+  }
+}
+
+.list-commit{
+  padding: 20px 30px;
 }
