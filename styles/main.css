@@ -1,27 +1,33 @@
-/* 1-Global styles */
-/* Homepage style */
+/* Icons CDN  */
+/* font-family styles*/
+/* global styles */
+/* bg-Styles */
+/* typography  Styles*/
+/* Navbar */
+/* footer x2 check styles */
+/* Homepage */
 /* Sprint 2 Blog Styles */
+/* Sprint-3 */
 /* Emotional-intelligence Blog */
-/* Sprint-3  JS Blog */
+/* JavaScript Blog */
+/* Sprint 4  */
+/*Neuroplasticity And Growth Mindset */
 
-/* Icons */
+
+
+
+/* Icons CDN   */
+
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
 
+
 /* font-family styles*/
+
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
 
-/* typography  Styles*/
-
-.h2 {
-  font-family: 'Signika Negative', sans-serif;
-}
-
-.h2-color{
-  color:#3E5151
-}
-
 /* global styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -35,7 +41,6 @@ body {
 }
 
 /* bg-Styles */
-
 
 .bg-sprint1 {
   background-color: rgba(184, 184, 184, 15%);
@@ -55,6 +60,102 @@ body {
 
 .bg-sprint5 {
   background-color: rgba(47, 115, 26, 10%)
+}
+
+
+/* typography  Styles*/
+
+.h1-title {
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.h1-title,
+.h2,
+.h3,
+.h4 {
+  max-width: 90%;
+}
+
+.h3,
+.h4 {
+  padding: 10px 50px;
+
+}
+
+
+.h3,
+.h4 {
+  font-weight: 500;
+}
+
+.h3 {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.h4 {
+  font-size: 1.2rem;
+  ;
+}
+
+.h4-sub {
+  background-color: rgb(229, 130, 158);
+  color: #fff;
+  padding: 3px;
+  display: inline-block;
+
+}
+
+
+.h1-title::first-letter {
+  text-transform: capitalize;
+}
+
+h2:first-letter {
+  text-transform: capitalize;
+}
+
+.h1-title {
+  padding: 20px 0 20px 50px;
+}
+
+
+.h1,
+.h2 {
+  font-weight: 600;
+}
+
+
+.h1 {
+  font-size: 2.5rem;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.h1-blog-title {
+  font-weight: 800;
+  font-size: 2rem;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+
+/* media query to fix h1-title in small screens */
+@media (max-width: 600px) {
+  .h1-title {
+    font-size: 1.5rem;
+  }
+}
+
+.h2 {
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.h2-color {
+  color: #3E5151
 }
 
 /* Navbar */
@@ -89,7 +190,96 @@ body {
 
 }
 
+/* footer Style */
+.footer {
+  background-color: rgba(8, 8, 8);
+  /* margin-top: 2%; */
+  height: 70px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.footer p,
+.footer a {
+  text-align: center;
+  font-size: 1rem;
+  padding: 10px 0 5px 0;
+  /* margin: 10px; */
+  text-transform: capitalize;
+}
+
+.dev-name {
+  font-weight: 700;
+  padding: 5px;
+  margin: 5px;
+}
+
+.footer-home-link,
+.footer p {
+  color: #fff;
+
+}
+
+.footer-home-link {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 800;
+  text-decoration: none;
+
+}
+
+.footer-home-link:hover {
+  background-color: rgb(255, 255, 255, 80%);
+  color: #000;
+}
+
+/* footer 2 */
+.footer-blog-entry {
+
+  background: #000;
+  color: #fff;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+.footer-top-link {
+  color: #fff;
+
+}
+
+.footer-blog-entry,
+.footer-top-link {
+  padding: 5px;
+  text-align: center;
+  text-transform: capitalize;
+
+
+}
+
+.footer-blog-entry a:visited {
+  color: #f0f8ff;
+}
+
+.footer-blog-entry a:hover {
+  background-color: rgb(255, 255, 255, 80%);
+  color: #000;
+  font-weight: 800;
+
+}
+/* media queries for footer */
+
+@media (max-width:768px) {
+  .footer p {
+    max-width: 90%;
+  }
+}
+
+
 /* Homepage */
+
 .container-intro {
   height: 100%;
   display: grid;
@@ -158,8 +348,6 @@ body {
     flex-direction: column;
     gap: 10px;
   }
-
-
 }
 
 @media (min-width: 1200px) and (max-width:1510px) {
@@ -172,7 +360,6 @@ body {
     margin: 20px 0;
   }
 }
-
 
 
 #blog-entry-title h2 {
@@ -206,8 +393,6 @@ body {
 }
 
 .img-blog-card {
-  /* width: 300px;
-  height: 100%; */
   border-radius: 5%;
   max-width: 100%;
   height: auto;
@@ -216,13 +401,9 @@ body {
 .img-card-box {
   height: 100%;
   z-index: -1;
-  /* object-fit: scale-down; */
-  /* border: 1px solid #000; */
-
 }
 
 .text-blog-card h2 {
-
   padding: 10px 15px;
   margin-top: 10px;
   font-size: 2rem;
@@ -234,13 +415,11 @@ body {
 .text-blog-card ul {
   list-style: none;
   text-align: center;
-
 }
 
 .text-blog-card ul li {
   padding: 10px;
 }
-
 
 
 .blog-entry-list li a {
@@ -257,63 +436,9 @@ body {
   text-shadow: 5px 5px 10px black;
 }
 
-/* footer Style */
-.footer {
-  background-color: rgba(8, 8, 8);
-  /* margin-top: 2%; */
-  height: 70px;
-  text-align: center;
-  display: grid;
-  justify-content: center;
-  align-content: center;
-}
-
-.footer p,
-.footer a {
-  text-align: center;
-  font-size: 1rem;
-  padding: 10px 0 5px 0;
-  /* margin: 10px; */
-  text-transform: capitalize;
-}
-
-.dev-name {
-  font-weight: 700;
-  padding: 5px;
-  margin: 5px;
-}
-
-.footer-home-link,
-.footer p {
-  color: #fff;
-
-}
-
-.footer-home-link {
-  text-transform: capitalize;
-  text-align: center;
-  font-size: 1rem;
-  font-weight: 800;
-  text-decoration: none;
-
-}
-
-.footer-home-link:hover {
-  background-color: rgb(255, 255, 255, 80%);
-  color: #000;
-}
-
-/* media queries for footer */
-
-@media (max-width:768px) {
-  .footer p {
-    max-width: 90%;
-  }
-}
 
 
 /* Sprint 2 Blog Styles */
-
 
 .nav-home-blog {
   font-size: 2.5rem;
@@ -333,23 +458,6 @@ body {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-items: center; */
-
-
-
-}
-
-.h1-title::first-letter {
-  text-transform: capitalize;
-}
-
-h2:first-letter {
-  text-transform: capitalize;
-}
-
-.h1-title {
-  padding: 20px 0 20px 50px;
 }
 
 
@@ -387,24 +495,8 @@ h2:first-letter {
   font-size: 1rem;
 }
 
-.h1,
-.h2 {
-  font-weight: 600;
-}
-
-/* text-transform: capitalize; */
-
-.h1 {
-  font-size: 2.5rem;
-}
-
-.h2 {
-  font-size: 2rem;
-}
-
 
 .ul {
-  /* border: 1px solid #000; */
   height: 100%;
   margin-top: 10px;
   margin-left: 30%;
@@ -448,42 +540,6 @@ h2:first-letter {
   margin-bottom: 15%;
 }
 
-/* footer */
-.footer-blog-entry {
-
-  background: #000;
-  color: #fff;
-  /* display: grid;
-  justify-content: center;
-  align-items: center; */
-  font-size: 1rem;
-  text-transform: capitalize;
-}
-
-.footer-top-link {
-  color: #fff;
-  
-}
-.footer-blog-entry ,
-.footer-top-link {
-  padding: 5px;
-  text-align: center;
-  text-transform: capitalize;
-  
-
-}
-
-.footer-blog-entry a:visited {
-  color: #f0f8ff;
-}
-
-.footer-blog-entry a:hover {
-  background-color: rgb(255, 255, 255, 80%);
-  color: #000;
-  font-weight: 800;
-
-}
-
 @media (min-width:700px) and (max-width:1200px) {
   .codepen-img {
     max-height: 600px;
@@ -513,6 +569,7 @@ h2:first-letter {
 }
 
 /* sprint-3 */
+
 /* Emotional-intelligence Blog */
 
 .eq-iq-blocks {
@@ -633,7 +690,10 @@ h2:first-letter {
 
 }
 
-/*  --- Sprint-3  JS Blog ---*/
+/*  Sprint-3 */
+
+
+/* Java Script Blog */
 
 .p-comments {
   color: #0000ff
@@ -641,8 +701,7 @@ h2:first-letter {
 
 .recipe-list {
   list-style-position: inside;
-  /* padding: 30px; */
-
+ 
 }
 
 .recipe-list li,
@@ -660,20 +719,20 @@ h2:first-letter {
   text-align: center;
 }
 
-
 .img-responsive {
-
   display: inline-block;
   text-align: center;
 
 }
 
 /* thor pic styles */
+
 .img-responsive figcaption {
   padding: 10px 0px;
 }
 
 /* media query for thor pictures small screen  */
+
 @media (max-width: 550px) {
   .img-responsive img {
     max-width: 300px;
@@ -690,10 +749,9 @@ h2:first-letter {
 }
 
 .dahl-pic {
-
   max-height: 500px;
   min-width: 250px;
-  /* margin: 30px 30px; */
+
 }
 
 .left-section {
@@ -704,12 +762,11 @@ h2:first-letter {
 }
 
 /* media query for recipe picture */
+
 @media (max-width: 768px) {
   .dahl-pic {
-
     max-height: 500px;
     min-width: auto;
-    /* margin: 30px 30px; */
   }
 
 }
@@ -740,71 +797,20 @@ h2:first-letter {
   ;
 }
 
-/*  Sprint 4 - Core Blog */
+/*  Sprint-4 */
+
+/*Neuroplasticity And Growth Mindset */
 
 
 .blog-container-neuro {
-
   max-width: 80%;
   height: 100%;
   background-color: #fff;
 
-
 }
 
-.h1-title,
-.h2,
-.h3,
-.h4 {
-  max-width: 90%;
-}
-
-
-.h3,
-.h4 {
-  padding: 10px 50px;
-
-}
-
-
-
-
-.h3,
-.h4 {
-  font-weight: 500;
-}
-
-.h3 {
-  font-size: 1.5rem;
-  text-decoration: underline;
-}
-
-.h4 {
-  font-size: 1.2rem;
-  ;
-}
-
-.h4-sub {
-
-  background-color: rgb(229, 130, 158);
-  color: #fff;
-  padding: 3px;
-  display: inline-block;
-
-}
-
-/* media query to fix h1-title in small screens */
-@media (max-width: 600px) {
-
-  .h1-title {
-    font-size: 1.5rem;
-
-  }
-}
 
 /* media query for blog-p and titles responsiveness*/
-
-
 
 .video-list {
   margin: 30px 0 30px 10%;
@@ -822,7 +828,6 @@ h2:first-letter {
 
 .video-list li a {
   text-decoration: none;
-
 }
 
 .video-list li::first-letter {
@@ -841,9 +846,7 @@ h2:first-letter {
 }
 
 .img-neuro-container {
-  /* width: 100%; */
-  /* border: 1px solid black; */
-  margin: 20px;
+   margin: 20px;
 }
 
 .img-neuro-container img {
@@ -851,6 +854,8 @@ h2:first-letter {
 }
 
 /*  Sprint 4 */
+
+/* Problem-Solving*/
 
 .section-title {
   margin: 30px 0;
@@ -875,12 +880,6 @@ h2:first-letter {
   color: gray;
 }
 
-.h1-blog-title {
-  font-weight: 800;
-  font-size: 2rem;
-  text-transform: capitalize;
-  padding: 20px 0;
-}
 
 .capitalize::first-letter {
   text-transform: capitalize;
@@ -917,7 +916,6 @@ h2:first-letter {
     height: auto;
 
   }
-
 
   .h1-blog-title {
     font-size: 1.8rem;
@@ -960,7 +958,6 @@ h2:first-letter {
 }
 
 @media (max-width: 767px) {
-
   .box-1,
   .box-2 {
     width: 80%;
@@ -969,11 +966,8 @@ h2:first-letter {
 
 
 .text-box {
-  /* border: 5px solid rgb(247, 104, 104); */
-  margin: 50px;
+    margin: 50px;
 }
-
-
 
 .iframe-boxes {
   display: flex;
@@ -981,8 +975,6 @@ h2:first-letter {
   justify-content: center;
   align-items: center;
   gap: 50px;
-
-
 }
 
 .iframe-about {
@@ -1019,8 +1011,6 @@ h2:first-letter {
   width: 100%;
 }
 
-
-
 .list-heading {
   font-size: 1.2rem;
   padding: 10px;
@@ -1053,16 +1043,16 @@ h2:first-letter {
   margin-bottom: 100px;
 }
 
-/*  Learning plan review */
+/* Sprint-5 */
+
+/*  Reviewed Learning Plan*/
 
 .hr {
   margin: 0 50px;
-  /* height: 3px; */
   border: 1px solid #000
 }
 
 .div-figure-column {
-
   display: flex;
   justify-content: center;
 }
@@ -1074,7 +1064,6 @@ h2:first-letter {
   justify-content: center;
   flex-wrap: wrap;
   margin: 20px 0;
-
 }
 
 /* make Carrer pathway graph responsive */
@@ -1091,8 +1080,6 @@ h2:first-letter {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-
-
   }
 }
 
@@ -1113,8 +1100,6 @@ h2:first-letter {
   .li-commit {
     max-width: 100%;
     padding: 5px;
-
   }
 
 }
-
